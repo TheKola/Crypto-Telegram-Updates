@@ -11,6 +11,10 @@ price change for every 5 minutes.
 Get your Binance Api keys at https://www.binance.com/en/my/settings/api-management
 
 "telegram_keys.py" provide the required telegram token key and chat id
-Create your own telegram bot using The Botfather, https://core.telegram.org/bots
+Create your own telegram bot using The Botfather, 
+
+  On Telegram, search @ BotFather, send him a "/start" message.
+  Send another "/newbot" message, then follow the instructions to setup a name and a username.
+  For more details visit https://core.telegram.org/bots
 
 "modules.py" contains all the modules used in the program
