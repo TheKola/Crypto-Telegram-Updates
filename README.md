@@ -4,7 +4,6 @@ which includes the name of the coins and the percentage change in the previous 5
 
 The Binance exchange has more than 900 cryptocurrencies. The program takes the prices of all the
 cryptocurrencies listed on the Binance platform and stores this price data in a pandas data frame and calculates the
-
 price change for every 5 minutes.
 
 "bin_keys.py" provide the required binance api keys
