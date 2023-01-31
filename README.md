@@ -1,19 +1,13 @@
-# Crypto_Telegram-Updates
-This project focusses on creating a cryptocurrency screener which gives updates on telegram, 
-which includes the name of the coins and the percentage change in the previous 5 minutes.
+# Crypto Screener 
+This repository contains the source code for a real-time cryptocurrency screener that sends updates to Telegram. The program connects to the Binance exchange and fetches the prices of all the cryptocurrencies listed on the platform. The data is then stored in a pandas data frame, and the program calculates the percentage change of each cryptocurrency every 5 minutes. The updates are sent to a Telegram channel in real-time.
 
-The Binance exchange has more than 900 cryptocurrencies. The program takes the prices of all the
-cryptocurrencies listed on the Binance platform and stores this price data in a pandas data frame and calculates the
-price change for every 5 minutes.
+The screener requires API keys from both Binance and Telegram to function properly. To obtain your Binance API keys, visit https://www.binance.com/en/my/settings/api-management. To create a Telegram bot, you can use the BotFather by searching @BotFather on Telegram and following the instructions provided. More information on creating a Telegram bot can be found at https://core.telegram.org/bots.
 
-"bin_keys.py" provide the required binance api keys
-Get your Binance Api keys at https://www.binance.com/en/my/settings/api-management
+The code consists of three main files:
 
-"telegram_keys.py" provide the required telegram token key and chat id
-Create your own telegram bot using The Botfather, 
+"bin_keys.py", which includes the Binance API keys
+"telegram_keys.py", which includes the Telegram token key and chat ID
+"modules.py", which includes all the modules used in the program.
+Please make sure to replace the placeholder values in "bin_keys.py" and "telegram_keys.py" with your own API keys.
 
-  On Telegram, search @ BotFather, send him a "/start" message.
-  Send another "/newbot" message, then follow the instructions to setup a name and a username.
-  For more details visit https://core.telegram.org/bots
-
-"modules.py" contains all the modules used in the program
+It is important to note that this project requires a good understanding of Python and its libraries, specifically Pandas, to run and modify the code. If you encounter any issues or have questions, feel free to reach out to the repository's maintainer for assistance.
