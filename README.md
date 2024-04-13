@@ -32,9 +32,8 @@ pip install -r requirements.txt
 ```
 
 ## Configuration
-Configure the script by editing the `config.py` file:
-1. Replace `YOUR_BOT_TOKEN` with your actual Telegram bot token.
-2. Replace `YOUR_CHANNEL_ID` with the Telegram channel ID where updates should be sent.
+1. Configure the script by editing the `telegram_keys.py` file with the generated `token_key` and `chatID_key`
+2. Follow the same procedure to configure the `bin_keys.py` file with the obtained `p_key` and `s_key`
 
 ## Running the Script
 Execute the script to start sending updates to your Telegram channel:
